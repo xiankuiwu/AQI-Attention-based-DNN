@@ -32,7 +32,7 @@ Download the [AQI Dataset](https://www.aqistudy.cn/) and put its content in the 
 ## Test With Different Models
   
 ADNNet.ipynb and ADNNet_multisteps.ipynb represent the implementation of one-step prediction and multi-step prediction respectively. 
---baseline: LSTM, B-BEATS, Informer, Autoformer 
+--baseline: LSTM, N-BEATS, Informer, Autoformer 
   
 
 ```  
