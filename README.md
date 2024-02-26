@@ -48,12 +48,12 @@ ADNNet_nosmoothing/smoothing.py and ADNNet_noBayesian/Bayesian.py includes ablat
 
   
 ```  
-python pytorch_hybrid_model_snapshot_train.py  
+python pytorch_ablation_test.py  
 ```
 
 ### Features Sensitivity Analysis
 
 ```  
-python pytorch_ features sensitivity.py  
+python pytorch_features sensitivity.py  
 ```
 
