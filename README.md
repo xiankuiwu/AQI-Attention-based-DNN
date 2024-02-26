@@ -2,7 +2,6 @@
 
 ADNNet: Attention-based deep neural network for Air Quality Index prediction
 
-The code has been edited by [Xiankui Wu](https://scholar.google.com.hk/citations?hl=zh-CN&user=S4APvPAAAAAJ) and [Xinyu Gu](https://scholar.google.com.hk/citations?hl=zh-CN&user=GxEQpHkAAAAJ).
 
 ## Introduction
 
