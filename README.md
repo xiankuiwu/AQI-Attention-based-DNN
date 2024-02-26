@@ -1,4 +1,4 @@
-# Air Quality Index prediction
+# Air Quality Index Prediction
 
 ADNNet: Attention-based deep neural network for Air Quality Index prediction
 
@@ -25,28 +25,35 @@ Tested with TensorFlow2.8+Keras2.8.0.
 Download the [AQI Dataset](https://www.aqistudy.cn/) and put its content in the directory `AQI-Attention-based-DNN/data/`
 
 
-### (3) Data preprocessing  
-  
-feature_selection.py provide the implementation of feature extraction and selection
 
 
 
   
 ## Test With Different Models
   
-feature_based_model_paper.py includes several model implementation with different features combination.  
+ADNNet.ipynb and ADNNet_multisteps.ipynb represent the implementation of one-step prediction and multi-step prediction respectively. 
 --baseline: LSTM, B-BEATS, Informer, Autoformer 
   
 
 ```  
-python feature_based_model_paper.py --feature=0 --model=0  
-```  
+ADNNet.ipynb --feature=0 --model=0  
+```
+ 
+```
+ADNNet_multisteps.ipynb --feature=0 --model=0  
+```
+### Ablation Test  
   
-### Proposed hybrid model with snaphsotensemble  
-  
-pytorch_hybrid_model_snapshot_train.py includes hybrid model implementation.   
-Before running, need to generate the dataset via data_process_for_hybrid_model.py.  
+ADNNet_nosmoothing/smoothing.py and ADNNet_noBayesian/Bayesian.py includes ablation test implementation.   
+
   
 ```  
 python pytorch_hybrid_model_snapshot_train.py  
 ```
+
+### Features Sensitivity Analysis
+
+```  
+python pytorch_ features sensitivity.py  
+```
+
