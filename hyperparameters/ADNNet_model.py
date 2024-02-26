@@ -34,7 +34,7 @@ def mlp(x, hidden_units, dropout_rate):
     return x
 
 
-def transformer_model(x, hidden_1, hidden_2, dropout_rate=0.1, attention_dim=11, num_heads=4):
+def ADNNet_model(x, hidden_1, hidden_2, dropout_rate=0.1, attention_dim=11, num_heads=4):
     x_input = Input(shape=(x.shape[1], x.shape[2]))
     AQI, P = x_input[:, :, 0], x_input[:, :, 1:]
     feature_time_lag = mlp(AQI, [hidden_1, hidden_2], dropout_rate)
