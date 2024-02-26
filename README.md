@@ -54,6 +54,6 @@ python pytorch_ablation_test.py
 ### Features Sensitivity Analysis
 
 ```  
-python pytorch_features sensitivity.py  
+python pytorch_features_sensitivity.py  
 ```
 
