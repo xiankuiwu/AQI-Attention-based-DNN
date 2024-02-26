@@ -22,7 +22,7 @@ Tested with TensorFlow2.8+Keras2.8.0.
 
 ### (2) Download the datasets
 
-Download the [AQI Dataset](https://www.aqistudy.cn/) and put its content in the directory `ADNNet For AQI/data/`
+Download the [AQI Dataset](https://www.aqistudy.cn/) and put its content in the directory `AQI-Attention-based-DNN/data/`
 
 
 ### (3) Data preprocessing  
