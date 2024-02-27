@@ -42,18 +42,5 @@ ADNNet.ipynb --feature=0 --model=0
 ```
 ADNNet_multisteps.ipynb --feature=0 --model=0  
 ```
-### Ablation Test  
-  
-ADNNet_nosmoothing/smoothing.py and ADNNet_noBayesian/Bayesian.py includes ablation test implementation.   
 
-  
-```  
-python pytorch_ablation_test.py  
-```
-
-### Features Sensitivity Analysis
-
-```  
-python pytorch_features_sensitivity.py  
-```
 
