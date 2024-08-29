@@ -7,6 +7,18 @@ ADNNet: Attention-based deep neural network for Air Quality Index prediction
 
 This repository provides the implementation of ADNNet for AQI prediction. The experiments have been performed datasets:  [**AQI Online Testing and Analysis Platform**](https://www.aqistudy.cn/).
 
+If you use this repo, please cite our paper:
+
+
+@article{wu2024adnnet,
+  title={ADNNet: Attention-based deep neural network for Air Quality Index prediction},
+  author={Wu, Xiankui and Gu, Xinyu and See, KW},
+  journal={Expert Systems with Applications},
+  pages={125128},
+  year={2024},
+  publisher={Elsevier}
+}
+
 
 ## Getting Started
 
