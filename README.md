@@ -9,7 +9,7 @@ This repository provides the implementation of ADNNet for AQI prediction. The ex
 
 If you use this repo, please cite our paper:
 
-'''
+```  
 @article{wu2024adnnet,
   title={ADNNet: Attention-based deep neural network for Air Quality Index prediction},
   author={Wu, Xiankui and Gu, Xinyu and See, KW},
@@ -18,7 +18,7 @@ If you use this repo, please cite our paper:
   year={2024},
   publisher={Elsevier}
 }
-'''
+```  
 
 ## Getting Started
 
